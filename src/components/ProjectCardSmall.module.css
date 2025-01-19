@@ -43,6 +43,7 @@
 
 .image:hover::after {
   opacity: 1;
+  cursor: pointer;
 }
 
 .contents h2:hover {
