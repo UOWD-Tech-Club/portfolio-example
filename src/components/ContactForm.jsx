@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./ContactForm.module.css";
 
-export default function ContactForm() {
+function ContactForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -11,7 +11,7 @@ export default function ContactForm() {
   return (
     <section className={styles.contents}>
       <div>
-        <h1>Let's Connect</h1>
+        <h1>Let's Connect!</h1>
         <p>
           Feel free to get in touch with me. I am always open to discussing new
           projects.
@@ -59,3 +59,5 @@ export default function ContactForm() {
     </section>
   );
 }
+
+export default ContactForm;

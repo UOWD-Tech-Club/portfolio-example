@@ -68,12 +68,12 @@
   outline: none;
 }
 
-h1 {
+.contents h1 {
   font-size: 30px;
   padding-bottom: 8px;
 }
 
-p {
+.contents p {
   font-size: 16px;
   width: 415px;
   padding-bottom: 40px;
@@ -98,4 +98,6 @@ p {
   padding-right: 86px;
   padding-bottom: 115px;
   border-radius: 25px;
+  margin: auto;
+  margin-bottom: 120px;
 }
