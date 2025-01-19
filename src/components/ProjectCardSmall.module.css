@@ -29,10 +29,20 @@
   height: 95px;
 }
 
-.image:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),
-    var(--img);
-  cursor: pointer;
+.image::after {
+  content: "";
+  display: block;
+  width: 379px;
+  height: 261px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
+  border-radius: 25px;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image:hover::after {
+  opacity: 1;
 }
 
 .contents h2:hover {
