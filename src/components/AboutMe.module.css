@@ -1,0 +1,23 @@
+.aboutme {
+  width: 1200px;
+  margin: 0 auto 120px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutme img {
+  width: 351px;
+  height: 352px;
+  border-radius: 25px;
+}
+
+.content h2 {
+  font-size: 48px;
+}
+
+.content p {
+  width: 775px;
+  font-size: 20px;
+  margin-top: 24px;
+}
