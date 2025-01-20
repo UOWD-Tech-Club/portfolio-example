@@ -41,12 +41,14 @@
   transition: opacity 0.3s;
 }
 
-.image:hover::after {
+.contents:hover .image::after {
   opacity: 1;
-  cursor: pointer;
 }
 
-.contents h2:hover {
+.contents:hover h2 {
   text-decoration: underline;
+}
+
+.contents:hover {
   cursor: pointer;
 }
