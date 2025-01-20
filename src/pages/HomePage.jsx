@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import MyProjects from "../components/MyProjects";
-import ContactMe from "../components/ContactMe";
+import ContactForm from "../components/ContactForm";
 
 function HomePage() {
   return (
@@ -9,7 +9,7 @@ function HomePage() {
       <Hero />
       <AboutMe />
       <MyProjects />
-      <ContactMe />
+      <ContactForm />
     </>
   );
 }

@@ -1,0 +1,40 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.top h1 {
+  font-size: 48px;
+}
+
+.top button {
+  font-size: 22px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 50px;
+  background-color: var(--tertiary);
+  color: black;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.top button:hover {
+  background-color: var(--secondary);
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
