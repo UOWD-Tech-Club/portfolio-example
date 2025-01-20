@@ -1,8 +1,8 @@
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <div className="Navbar">
+    <div className={styles.navbar}>
       <svg
         width="128"
         height="59"
@@ -15,14 +15,14 @@ function Navbar() {
           fill="white"
         />
       </svg>
-      <ul className="links">
-        <li className="link">
+      <ul className={styles.links}>
+        <li className={styles.link}>
           <a href="#">Home</a>
         </li>
-        <li className="link">
+        <li className={styles.link}>
           <a href="#">Projects</a>
         </li>
-        <button className="ContactButton">Contact Me</button>
+        <button className={styles.ContactButton}>Contact Me</button>
       </ul>
     </div>
   );
