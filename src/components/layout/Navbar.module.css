@@ -1,0 +1,42 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  box-sizing: border-box;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 85px 0 80px;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.link {
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--tertiary);
+}
+
+.ContactButton {
+  padding: 13px 20px;
+  background-color: transparent;
+  border: 2px solid var(--tertiary);
+  border-radius: 50px;
+  color: var(--tertiary);
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ContactButton:hover {
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+}
