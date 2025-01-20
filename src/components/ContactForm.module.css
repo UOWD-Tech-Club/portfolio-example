@@ -62,6 +62,7 @@
 
 .submitButton:hover {
   background-color: var(--secondary);
+  cursor: pointer;
 }
 
 .submitButton:focus {

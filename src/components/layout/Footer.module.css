@@ -21,6 +21,10 @@ footer {
   transition: 0.3s;
 }
 
+.icons > *:hover {
+  cursor: pointer;
+}
+
 .github {
   background-image: url("../../assets/gh.svg");
 }

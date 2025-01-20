@@ -30,6 +30,7 @@
 
 .top button:hover {
   background-color: var(--secondary);
+  cursor: pointer;
 }
 
 .projects {
