@@ -39,7 +39,7 @@
   border: 2px solid var(--tertiary);
   border-radius: 50px;
   color: var(--tertiary);
-  font-size: 20px;
+  font-size: 16px;
   transition: 0.3s;
   cursor: pointer;
 }
