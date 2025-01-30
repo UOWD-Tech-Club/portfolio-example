@@ -11,6 +11,14 @@
   padding: 0 85px 0 80px;
 }
 
+.logo {
+  background-image: url("../../assets/BOB.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 140px;
+  height: 59px;
+}
+
 .links {
   display: flex;
   gap: 50px;
