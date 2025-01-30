@@ -1,16 +1,26 @@
-# React + GitHub Pages using Vite
+# React Foundations Workshop
+### React Portfolio Project for Tech Club Workshop
+This repository contains the project files for the React Foundations workshop, where participants will build a portfolio website from scratch.
 
-This template provides a minimal setup to get React working with GitHub Pages using Vite as the build tool.
 
-> Remember to update the `vite.config.js` and change the base path to your repo name
+### Installation Steps
 
+1. Clone the repository
 ```diff
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+git clone https://github.com/UOWD-Tech-Club/portfolio-example.git
+```
 
-// https://vitejs.dev/config/
-export default defineConfig({
-   plugins: [react()],
-+  base: '/[your-repo-name]/'
-})
+2. Navigate to project directory
+```diff
+cd portfolio-example
+```
+
+3. Install dependencies
+```diff
+npm install
+```
+
+4. Start development server
+```diff
+npm run dev
 ```
