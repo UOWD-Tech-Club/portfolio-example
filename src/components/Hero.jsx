@@ -7,7 +7,12 @@ function Hero() {
         <h1 className={styles.title}>I'm Bob</h1>
         <p className={styles.desc}>A Professional Software Engineer</p>
         <div className={styles.buttons}>
-          <button className={styles.cvButton}>Donwload CV</button>
+          <a
+            href="https://www.corecruitment.com/downloads/CORE_CV_template_1.doc"
+            download
+          >
+            <button className={styles.cvButton}>Download CV</button>
+          </a>
           <button className={styles.projectsButton}>My Projects</button>
         </div>
       </div>
